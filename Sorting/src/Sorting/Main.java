@@ -19,10 +19,13 @@ public class Main {
 				System.out.print(i + " ");
 		}
 		System.out.println();
-		
+		int[] sortedArray = insertionSort(unsortedArray);
+
 		System.out.println("Sorted Array:");
 		//TODO: sort the array and print out its contents
-		
+		for (int i: sortedArray) {
+				System.out.print(i + " ");
+		}
 		
 	}
 
